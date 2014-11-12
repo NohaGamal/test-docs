@@ -48,6 +48,15 @@ bold and italic:
 
 **bold text**
 
+table
+=====
+
+Simple tables can be written as follows:
+
++---------+---------+-----------+
+| 1       |  2      |  3        |
++---------+---------+-----------+
+
 Indices and tables
 ==================
 
