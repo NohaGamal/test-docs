@@ -15,6 +15,22 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
 
 `Python <http://www.python.com>`_
 
+Code block:
+===========
+.. code-block:: python
+
+   def some_function():
+       interesting = False
+       print 'This line is highlighted.'
+       print 'This one is not...'
+       print '...but this one is.'
+
+test
+====
+
+.. literalinclude:: application.scala
+   :language: scala
+
 
 Team Members:
 ^^^^^^^^^^^^^
@@ -34,6 +50,17 @@ This is a simple example:
 
     import math
     print 'import done'
+
+
+scala
+=====
+.. code-block:: scala
+
+    import math._
+        def intRoot23(num: Int) = {
+          val numSquare = num*num
+          (cbrt(numSquare) + log(numSquare)).toInt
+    }
 
 
 list and bullets:
@@ -91,8 +118,6 @@ Image
 
 Colored boxes
 =============
-
-.. seealso:: This is a simple **seealso** note.
 
 .. note:: This is a simple **note** note.
 
