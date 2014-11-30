@@ -9,6 +9,13 @@ Contents:
    License
    help
 
+Introduction
+============
+reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents.
+
+`Python <http://www.python.com>`_
+
+
 Team Members:
 ^^^^^^^^^^^^^
 .. toctree::
@@ -27,6 +34,7 @@ This is a simple example:
 
     import math
     print 'import done'
+
 
 list and bullets:
 =================
@@ -53,9 +61,19 @@ table
 
 Simple tables can be written as follows:
 
-+---------+---------+-----------+
-| 1       |  2      |  3        |
-+---------+---------+-----------+
++------------+------------+-----------+
+| Header 1   | Header 2   | Header 3  |
++============+============+===========+
+| body row 1 | column 2   | column 3  |
++------------+------------+-----------+
+| body row 2 | Cells may span columns.|
++------------+------------+-----------+
+| body row 3 | Cells may  | - Cells   |
++------------+ span rows. | - contain |
+| body row 4 |            | - blocks. |
++------------+------------+-----------+
+
+
 
 Indices and tables
 ==================
@@ -63,4 +81,31 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+Image
+=====
+
+.. image:: ../images/micky_mouse.jpg
+
+
+Colored boxes
+=============
+
+.. seealso:: This is a simple **seealso** note.
+
+.. note:: This is a simple **note** note.
+
+.. warning:: This is a simple **warning** note.
+
+
+Sidebar
+=======
+
+.. sidebar:: Sidebar Title
+        :subtitle: Optional Sidebar Subtitle
+
+   Subsequent indented lines comprise
+   the body of the sidebar, and are
+   interpreted as body elements.
 
