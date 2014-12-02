@@ -4,7 +4,6 @@ Welcome to Noha's documentation!!!!!
 Contents:
 ^^^^^^^^^
 .. toctree::
-   :maxdepth: 2 
 
    License
    help
@@ -35,12 +34,10 @@ test
 Team Members:
 ^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 3
 
    Noha
    Amal
    Mohamed
-
 
 Another simple Header:
 ======================
@@ -134,3 +131,13 @@ Sidebar
    the body of the sidebar, and are
    interpreted as body elements.
 
+
+
+hi
+==
+
+hi
+**
+
+hi
+^^
