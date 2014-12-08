@@ -131,13 +131,3 @@ Sidebar
    the body of the sidebar, and are
    interpreted as body elements.
 
-
-
-hi
-==
-
-hi
-**
-
-hi
-^^
