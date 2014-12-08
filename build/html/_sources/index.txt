@@ -110,7 +110,7 @@ Indices and tables
 Image
 =====
 
-.. image:: ../images/micky_mouse.jpg
+.. image:: ../images/team.jpg
 
 
 Colored boxes
