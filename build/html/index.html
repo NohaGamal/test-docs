@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Welcome to Noha’s documentation!!!!! &mdash; docs 0.0.1 documentation</title>
+    <title>title &mdash; docs 0.0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -25,7 +25,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="docs 0.0.1 documentation" href="#" />
-    <link rel="next" title="License" href="License.html" /> 
+    <link rel="next" title="help" href="help.html" /> 
   </head>
   <body>
     <div class="related">
@@ -35,7 +35,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="License.html" title="License"
+          <a href="help.html" title="help"
              accesskey="N">next</a> |</li>
         <li><a href="#">docs 0.0.1 documentation</a> &raquo;</li> 
       </ul>
@@ -46,38 +46,46 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="welcome-to-noha-s-documentation">
-<h1>Welcome to Noha&#8217;s documentation!!!!!<a class="headerlink" href="#welcome-to-noha-s-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="title">
+<h1>title<a class="headerlink" href="#title" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id1">
+<h2>title<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3>title<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>title<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id4">
+<h5>title<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="id5">
+<h6>title<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h6>
+</div>
+</div>
+</div>
+</div>
 <div class="section" id="contents">
-<h2>Contents:<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<h3>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h3>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="License.html">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">help</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="help.html#need-further-help">Need further help</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="License.html">License</a></li>
 </ul>
 </div>
 </div>
-</div>
-<div class="section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<p>reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents.</p>
-<p><a class="reference external" href="http://www.python.com">Python</a></p>
-</div>
 <div class="section" id="code-block">
-<h1>Code block:<a class="headerlink" href="#code-block" title="Permalink to this headline">¶</a></h1>
-<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">some_function</span><span class="p">():</span>
-    <span class="n">interesting</span> <span class="o">=</span> <span class="bp">False</span>
-    <span class="k">print</span> <span class="s">&#39;This line is highlighted.&#39;</span>
-    <span class="k">print</span> <span class="s">&#39;This one is not...&#39;</span>
-    <span class="k">print</span> <span class="s">&#39;...but this one is.&#39;</span>
+<h3>code block<a class="headerlink" href="#code-block" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-scala"><div class="highlight"><pre><span class="k">import</span> <span class="nn">math._</span>
+     <span class="k">def</span> <span class="n">intRoot23</span><span class="o">(</span><span class="n">num</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)</span> <span class="k">=</span> <span class="o">{</span>
+       <span class="k">val</span> <span class="n">numSquare</span> <span class="k">=</span> <span class="n">num</span><span class="o">*</span><span class="n">num</span>
+       <span class="o">(</span><span class="n">cbrt</span><span class="o">(</span><span class="n">numSquare</span><span class="o">)</span> <span class="o">+</span> <span class="n">log</span><span class="o">(</span><span class="n">numSquare</span><span class="o">)).</span><span class="n">toInt</span>
+<span class="o">}</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="test">
-<h1>test<a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="include-scala-file">
+<h3>Include scala file<a class="headerlink" href="#include-scala-file" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-scala"><div class="highlight"><pre><span class="k">package</span> <span class="nn">controllers</span>
 
 <span class="k">import</span> <span class="nn">play.api.mvc.</span><span class="o">{</span><span class="nc">Action</span><span class="o">,</span> <span class="nc">Controller</span><span class="o">}</span>
@@ -94,56 +102,26 @@
 <span class="o">}</span>
 </pre></div>
 </div>
-<div class="section" id="team-members">
-<h2>Team Members:<a class="headerlink" href="#team-members" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Noha.html">Noha</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Amal.html">Amal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Mohamed.html">Mohamed</a></li>
-</ul>
 </div>
-</div>
-</div>
-<div class="section" id="another-simple-header">
-<h1>Another simple Header:<a class="headerlink" href="#another-simple-header" title="Permalink to this headline">¶</a></h1>
-<p>This is a simple example:</p>
-<div class="highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">math</span>
-<span class="k">print</span> <span class="s">&#39;import done&#39;</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="scala">
-<h1>scala<a class="headerlink" href="#scala" title="Permalink to this headline">¶</a></h1>
-<div class="highlight-scala"><div class="highlight"><pre><span class="k">import</span> <span class="nn">math._</span>
-    <span class="k">def</span> <span class="n">intRoot23</span><span class="o">(</span><span class="n">num</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)</span> <span class="k">=</span> <span class="o">{</span>
-      <span class="k">val</span> <span class="n">numSquare</span> <span class="k">=</span> <span class="n">num</span><span class="o">*</span><span class="n">num</span>
-      <span class="o">(</span><span class="n">cbrt</span><span class="o">(</span><span class="n">numSquare</span><span class="o">)</span> <span class="o">+</span> <span class="n">log</span><span class="o">(</span><span class="n">numSquare</span><span class="o">)).</span><span class="n">toInt</span>
-<span class="o">}</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="list-and-bullets">
-<h1>list and bullets:<a class="headerlink" href="#list-and-bullets" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="bullets-and-list">
+<h3>bullets and list<a class="headerlink" href="#bullets-and-list" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>This is a bulleted list.</li>
-<li>It has two items, the second
-item uses two lines. (note the indentation)</li>
+<li>this is a bulletes list</li>
+<li>two</li>
 </ul>
 <ol class="arabic simple">
-<li>This is a numbered list.</li>
-<li>It has two items too.</li>
-<li>This is a numbered list.</li>
-<li>It has two items too.</li>
+<li>one</li>
+<li>two</li>
 </ol>
+<p><em>italic</em></p>
+<p><strong>build</strong></p>
 </div>
-<div class="section" id="bold-and-italic">
-<h1>bold and italic:<a class="headerlink" href="#bold-and-italic" title="Permalink to this headline">¶</a></h1>
-<p><em>italic text</em></p>
-<p><strong>bold text</strong></p>
+<div class="section" id="link">
+<h3>link<a class="headerlink" href="#link" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="www.python.com">Python</a></p>
 </div>
 <div class="section" id="table">
-<h1>table<a class="headerlink" href="#table" title="Permalink to this headline">¶</a></h1>
+<h3>table<a class="headerlink" href="#table" title="Permalink to this headline">¶</a></h3>
 <p>Simple tables can be written as follows:</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -180,37 +158,30 @@ span rows.</td>
 </tbody>
 </table>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
-</div>
 <div class="section" id="image">
-<h1>Image<a class="headerlink" href="#image" title="Permalink to this headline">¶</a></h1>
+<h3>Image<a class="headerlink" href="#image" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/team.jpg" src="_images/team.jpg" />
 </div>
-<div class="section" id="colored-boxes">
-<h1>Colored boxes<a class="headerlink" href="#colored-boxes" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">This is a simple <strong>note</strong> note.</p>
-</div>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">This is a simple <strong>warning</strong> note.</p>
-</div>
-</div>
 <div class="section" id="sidebar">
-<h1>Sidebar<a class="headerlink" href="#sidebar" title="Permalink to this headline">¶</a></h1>
+<h3>Sidebar<a class="headerlink" href="#sidebar" title="Permalink to this headline">¶</a></h3>
 <div class="sidebar">
-<p class="first sidebar-title">Sidebar Title
-     :subtitle: Optional Sidebar Subtitle</p>
+<p class="first sidebar-title">Sidebar Title</p>
 <p class="last">Subsequent indented lines comprise
 the body of the sidebar, and are
 interpreted as body elements.</p>
+</div>
+</div>
+<div class="section" id="colored-boxs">
+<h3>colored boxs<a class="headerlink" href="#colored-boxs" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">this is simple note.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">this is a simple <strong>warning</strong>.</p>
+</div>
+</div>
 </div>
 </div>
 
@@ -222,30 +193,36 @@ interpreted as body elements.</p>
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Welcome to Noha&#8217;s documentation!!!!!</a><ul>
-<li><a class="reference internal" href="#contents">Contents:</a></li>
+<li><a class="reference internal" href="#">title</a><ul>
+<li><a class="reference internal" href="#id1">title</a><ul>
+<li><a class="reference internal" href="#id2">title</a><ul>
+<li><a class="reference internal" href="#id3">title</a><ul>
+<li><a class="reference internal" href="#id4">title</a><ul>
+<li><a class="reference internal" href="#id5">title</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#introduction">Introduction</a></li>
-<li><a class="reference internal" href="#code-block">Code block:</a></li>
-<li><a class="reference internal" href="#test">test</a><ul>
-<li><a class="reference internal" href="#team-members">Team Members:</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#another-simple-header">Another simple Header:</a></li>
-<li><a class="reference internal" href="#scala">scala</a></li>
-<li><a class="reference internal" href="#list-and-bullets">list and bullets:</a></li>
-<li><a class="reference internal" href="#bold-and-italic">bold and italic:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contents">Contents</a></li>
+<li><a class="reference internal" href="#code-block">code block</a></li>
+<li><a class="reference internal" href="#include-scala-file">Include scala file</a></li>
+<li><a class="reference internal" href="#bullets-and-list">bullets and list</a></li>
+<li><a class="reference internal" href="#link">link</a></li>
 <li><a class="reference internal" href="#table">table</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 <li><a class="reference internal" href="#image">Image</a></li>
-<li><a class="reference internal" href="#colored-boxes">Colored boxes</a></li>
 <li><a class="reference internal" href="#sidebar">Sidebar</a></li>
+<li><a class="reference internal" href="#colored-boxs">colored boxs</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
   <h4>Next topic</h4>
-  <p class="topless"><a href="License.html"
-                        title="next chapter">License</a></p>
+  <p class="topless"><a href="help.html"
+                        title="next chapter">help</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/index.txt"
@@ -275,7 +252,7 @@ interpreted as body elements.</p>
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="License.html" title="License"
+          <a href="help.html" title="help"
              >next</a> |</li>
         <li><a href="#">docs 0.0.1 documentation</a> &raquo;</li> 
       </ul>

@@ -1,84 +1,63 @@
-Welcome to Noha's documentation!!!!!
-====================================
+title
+#####
 
-Contents:
-^^^^^^^^^
+title
+*****
+
+title
+=====
+
+title
+-----
+
+title
+^^^^^
+
+title
+"""""
+
+Contents
+========
+
 .. toctree::
 
-   License
    help
+   License
 
-Introduction
-============
-reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents.
+code block
+==========
 
-`Python <http://www.python.com>`_
+.. code-block:: scala
 
-Code block:
-===========
-.. code-block:: python
+   import math._
+        def intRoot23(num: Int) = {
+          val numSquare = num*num
+          (cbrt(numSquare) + log(numSquare)).toInt
+   }
 
-   def some_function():
-       interesting = False
-       print 'This line is highlighted.'
-       print 'This one is not...'
-       print '...but this one is.'
-
-test
-====
+Include scala file
+==================
 
 .. literalinclude:: application.scala
    :language: scala
 
-
-Team Members:
-^^^^^^^^^^^^^
-.. toctree::
-
-   Noha
-   Amal
-   Mohamed
-
-Another simple Header:
-======================
-
-This is a simple example:
-::
-
-    import math
-    print 'import done'
-
-
-scala
-=====
-.. code-block:: scala
-
-    import math._
-        def intRoot23(num: Int) = {
-          val numSquare = num*num
-          (cbrt(numSquare) + log(numSquare)).toInt
-    }
-
-
-list and bullets:
-=================
-
-* This is a bulleted list.
-* It has two items, the second
-  item uses two lines. (note the indentation)
-
-1. This is a numbered list.
-2. It has two items too.
-
-#. This is a numbered list.
-#. It has two items too.
-
-bold and italic:
+bullets and list
 ================
 
-*italic text*
+* this is a bulletes list
+* two
 
-**bold text**
+1. one
+2. two
+
+*italic* 
+
+**build**
+
+link
+====
+
+`Python <www.python.com>`_
 
 table
 =====
@@ -97,37 +76,25 @@ Simple tables can be written as follows:
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
 Image
 =====
 
 .. image:: ../images/team.jpg
 
-
-Colored boxes
-=============
-
-.. note:: This is a simple **note** note.
-
-.. warning:: This is a simple **warning** note.
-
-
 Sidebar
 =======
 
 .. sidebar:: Sidebar Title
-        :subtitle: Optional Sidebar Subtitle
 
    Subsequent indented lines comprise
    the body of the sidebar, and are
    interpreted as body elements.
+
+
+colored boxs
+============
+
+.. note:: this is simple note.
+
+.. warning:: this is a simple **warning**.
 
